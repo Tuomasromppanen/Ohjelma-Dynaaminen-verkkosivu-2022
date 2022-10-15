@@ -5,9 +5,40 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(./Images/Purple.png);
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-color: rgb(73, 2, 73);
+}
+
+h1, h2 {
+  color:rgb(241, 162, 13);
+}
+
+p {
+  color: white;
+}
+
+input[type=text] {
+  height: 20px;
+  margin-right: 6px;
+}
+
+button {
+  color:rgb(0, 0, 0);
+  background-color: rgb(241, 162, 13);
+  width: 70px;
+  height: 30px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+@media only screen and (max-width: 1280px) {
+  body {
+    background-image: none;
+  }
 }
